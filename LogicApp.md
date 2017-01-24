@@ -6,7 +6,6 @@
 
 ### Request Body JSON Schema
 ```Python
-Request Body JSON Schema
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "properties": {
