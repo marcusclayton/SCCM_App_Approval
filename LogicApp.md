@@ -1,6 +1,5 @@
 # _________________________________________________________
 ## HTTP Post to this URL:
-# _________________________________________________________
 
 ![picture alt](https://mcautomationgitresources.blob.core.windows.net/images/logicApp-sccm-01.png "HTTP POST")
 
@@ -54,3 +53,26 @@ Request Body JSON Schema
 }
 ```
 
+# _________________________________________________________
+## Send Approval E-Mail:
+
+* Complete the wizard to create an API connection which will be used to send the approval emails (to the manager or designated approval mailbox/distribution list)
+
+![picture alt](https://mcautomationgitresources.blob.core.windows.net/images/logicApp-sccm-02.png "send approval email")
+
+
+# _________________________________________________________
+## Evaluate Condition from Approval E-Mail:
+
+![picture alt](https://mcautomationgitresources.blob.core.windows.net/images/logicApp-sccm-03.png "email Condition")
+
+### Approved?
+
+
+### Approved = "Yes" :+1:
+
+![picture alt](https://mcautomationgitresources.blob.core.windows.net/images/logicApp-sccm-04.png "approved")
+
+### Denied = "No" :thumbsdown:
+
+![picture alt](https://mcautomationgitresources.blob.core.windows.net/images/logicApp-sccm-05.png "denied")
